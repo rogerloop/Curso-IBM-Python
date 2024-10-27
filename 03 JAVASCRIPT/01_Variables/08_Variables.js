@@ -49,7 +49,7 @@ console.log("El resultado de sumar " + sumando1 + " + "
 
  //Operador incremento
  var numeroInicial = 10;
- let numeroIncrementado = ++numeroInicial;
+ let numeroIncrementado = numeroInicial + 23;
 
  //Sería como poner que numeroIncrementado = numeroInicial +1;
  console.log("El operador incremento sobre numeroInicial daría " + numeroIncrementado);
