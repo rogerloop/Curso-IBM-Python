@@ -7,7 +7,22 @@
         //  utiliza bucles for anidados para generar las tablas de multiplicar de un número A 
         // a otro B elegido por el usuario, por ejemplo, las tablas de multiplicar del 5 al 10:
 
+         // Definimos el rango de las tablas de multiplicar
+        let tablaMinima = Number(prompt("Introduzca tabla mínima: "));
+        let tablaMaxima = Number(prompt("Introduzca tabla máxima: "));
+
+        // Bucle externo para iterar a través de cada tabla de multiplicar
         
+        for (let i = tablaMinima; i <= tablaMaxima; i++) {
+            console.log(`Tabla de multiplicar del ${i}:`);
+
+            // Bucle interno para calcular cada línea de la tabla de multiplicar actual
+            for (let j = 1; j <= 10; j++) {
+                console.log(`${i} x ${j} = ${i * j}`);
+            }
+            // Añadimos una línea en blanco para separar las tablas de multiplicar
+            console.log('');
+        }
 
     </script>
 

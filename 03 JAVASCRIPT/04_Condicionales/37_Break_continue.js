@@ -19,7 +19,7 @@ while (year < 2010) {
   year++;
 
   if (year == 2005) {
-    continue;
+    break;
   } else {
     document.write(year + "<p></p>");
   }
