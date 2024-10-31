@@ -15,33 +15,18 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     var numeros = ["30", 5, 7, 1, "60", 8, 2];
     let maximo = numeros[0];
     var numeros = numeros.sort();
     console.log(numeros)
 
-    // for (let i = 1; i < numeros.length; i++) {
-    //   if (numeros[i] > maximo) {
-    //     maximo = numeros[i];
-    //   }
-    // }
+   for (let i = 1; i < numeros.length; i++) {
+   if (numeros[i] > maximo) {
+   maximo = numeros[i];
+      }
+    }
 
-    // console.log(maximo); // Debería imprimir el número más grande del array
+console.log(maximo); // Debería imprimir el número más grande del array
 
 
     //Con Math.max.apply

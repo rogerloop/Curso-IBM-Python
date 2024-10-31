@@ -10,13 +10,14 @@ var cine = [peliculas, categoria];
 //var cine = [['Batman', 'Cars', 'It'] , ['accion', 'infantil', 'Terror']];
 
 console.log(cine);
-console.log(cine[1][2]); //Terror
-console.log(cine[1][0]); //Accion
+console.log(cine[0][1]); 
+console.log(cine[1][0]); 
 
 //Array de tres dimensiones
-var peliculas = ['Batman', 'Cars', 'It'];
+var peliculasIt = ['IT1', 'IT2', 'IT3'];
+var peliculas = ['Batman', 'Cars', peliculasIt];
 var categoria = ['accion', 'infantil', 'Terror'];
-var peliculasIT = ['IT1', 'IT2', 'IT3'];
+
 
 var cine = [peliculas, categoria];
 
@@ -25,4 +26,3 @@ var cine = [peliculas, categoria];
 
 console.log(cine);
 console.log(cine[0][2][2]);
-
